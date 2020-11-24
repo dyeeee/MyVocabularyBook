@@ -13,7 +13,7 @@ struct MyVocabularyBookApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

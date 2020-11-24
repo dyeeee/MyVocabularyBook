@@ -17,6 +17,7 @@
 		D0853A79256CF2C500AEB849 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853A60256CF2C400AEB849 /* Persistence.swift */; };
 		D0853A7A256CF2C500AEB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0853A61256CF2C500AEB849 /* Assets.xcassets */; };
 		D0853A7B256CF2C500AEB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0853A61256CF2C500AEB849 /* Assets.xcassets */; };
+		D0853A89256CF2E900AEB849 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853A88256CF2E900AEB849 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D0853A6E256CF2C500AEB849 /* MyVocabularyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVocabularyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0853A70256CF2C500AEB849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0853A71256CF2C500AEB849 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D0853A88256CF2E900AEB849 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				D0853A5E256CF2C400AEB849 /* MyVocabularyBookApp.swift */,
-				D0853A5F256CF2C400AEB849 /* ContentView.swift */,
 				D0853A60256CF2C400AEB849 /* Persistence.swift */,
+				D0853A88256CF2E900AEB849 /* TabView.swift */,
+				D0853A86256CF2D100AEB849 /* Model */,
+				D0853A87256CF2D900AEB849 /* ViewModel */,
+				D0853A90256CF2F600AEB849 /* TestFiles */,
 				D0853A61256CF2C500AEB849 /* Assets.xcassets */,
 				D0853A5C256CF2C400AEB849 /* MyVocabularyBook.xcdatamodeld */,
 			);
@@ -96,6 +101,28 @@
 				D0853A71256CF2C500AEB849 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		D0853A86256CF2D100AEB849 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0853A87256CF2D900AEB849 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0853A90256CF2F600AEB849 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D0853A5F256CF2C400AEB849 /* ContentView.swift */,
+			);
+			path = TestFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0853A89256CF2E900AEB849 /* TabView.swift in Sources */,
 				D0853A74256CF2C500AEB849 /* MyVocabularyBookApp.swift in Sources */,
 				D0853A78256CF2C500AEB849 /* Persistence.swift in Sources */,
 				D0853A72256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */,
