@@ -17,7 +17,24 @@
 		D0853A79256CF2C500AEB849 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853A60256CF2C400AEB849 /* Persistence.swift */; };
 		D0853A7A256CF2C500AEB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0853A61256CF2C500AEB849 /* Assets.xcassets */; };
 		D0853A7B256CF2C500AEB849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0853A61256CF2C500AEB849 /* Assets.xcassets */; };
-		D0853A89256CF2E900AEB849 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853A88256CF2E900AEB849 /* TabView.swift */; };
+		D0853AA6256D189100AEB849 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AA5256D189100AEB849 /* WordDetailView.swift */; };
+		D0853AA7256D189100AEB849 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AA5256D189100AEB849 /* WordDetailView.swift */; };
+		D0853AAD256D18E500AEB849 /* CSVTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AAC256D18E500AEB849 /* CSVTools.swift */; };
+		D0853AAE256D18E500AEB849 /* CSVTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AAC256D18E500AEB849 /* CSVTools.swift */; };
+		D0853AB8256D191400AEB849 /* RegexTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AB7256D191400AEB849 /* RegexTools.swift */; };
+		D0853AB9256D191400AEB849 /* RegexTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AB7256D191400AEB849 /* RegexTools.swift */; };
+		D0853ABF256D193700AEB849 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853ABE256D193700AEB849 /* WordListView.swift */; };
+		D0853AC0256D193700AEB849 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853ABE256D193700AEB849 /* WordListView.swift */; };
+		D0853AC6256D1C7E00AEB849 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */; };
+		D0853AC7256D1C7E00AEB849 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */; };
+		D0853ACF256DE6B800AEB849 /* IELTS_Words.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */; };
+		D0853AD0256DE6B800AEB849 /* IELTS_Words.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */; };
+		D0853AD7256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */; };
+		D0853AD8256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */; };
+		D0853AD9256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */; };
+		D0853ADA256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */; };
+		D0853AE2256DF14900AEB849 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AE1256DF14900AEB849 /* ListViewModel.swift */; };
+		D0853AE3256DF14900AEB849 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AE1256DF14900AEB849 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +48,15 @@
 		D0853A6E256CF2C500AEB849 /* MyVocabularyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVocabularyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0853A70256CF2C500AEB849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0853A71256CF2C500AEB849 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		D0853A88256CF2E900AEB849 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		D0853AA5256D189100AEB849 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		D0853AAC256D18E500AEB849 /* CSVTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVTools.swift; sourceTree = "<group>"; };
+		D0853AB7256D191400AEB849 /* RegexTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTools.swift; sourceTree = "<group>"; };
+		D0853ABE256D193700AEB849 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IELTS_Words.csv; sourceTree = "<group>"; };
+		D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0853AE1256DF14900AEB849 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +92,13 @@
 			children = (
 				D0853A5E256CF2C400AEB849 /* MyVocabularyBookApp.swift */,
 				D0853A60256CF2C400AEB849 /* Persistence.swift */,
-				D0853A88256CF2E900AEB849 /* TabView.swift */,
+				D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */,
 				D0853A86256CF2D100AEB849 /* Model */,
 				D0853A87256CF2D900AEB849 /* ViewModel */,
+				D0853A93256D058300AEB849 /* Views */,
+				D0853A9A256D149600AEB849 /* Tools */,
 				D0853A90256CF2F600AEB849 /* TestFiles */,
+				D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */,
 				D0853A61256CF2C500AEB849 /* Assets.xcassets */,
 				D0853A5C256CF2C400AEB849 /* MyVocabularyBook.xcdatamodeld */,
 			);
@@ -106,6 +134,8 @@
 		D0853A86256CF2D100AEB849 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */,
+				D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +143,7 @@
 		D0853A87256CF2D900AEB849 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D0853AE1256DF14900AEB849 /* ListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -123,6 +154,24 @@
 				D0853A5F256CF2C400AEB849 /* ContentView.swift */,
 			);
 			path = TestFiles;
+			sourceTree = "<group>";
+		};
+		D0853A93256D058300AEB849 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0853AA5256D189100AEB849 /* WordDetailView.swift */,
+				D0853ABE256D193700AEB849 /* WordListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0853A9A256D149600AEB849 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D0853AAC256D18E500AEB849 /* CSVTools.swift */,
+				D0853AB7256D191400AEB849 /* RegexTools.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0853ACF256DE6B800AEB849 /* IELTS_Words.csv in Resources */,
 				D0853A7A256CF2C500AEB849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0853AD0256DE6B800AEB849 /* IELTS_Words.csv in Resources */,
 				D0853A7B256CF2C500AEB849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +273,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0853A89256CF2E900AEB849 /* TabView.swift in Sources */,
+				D0853AD9256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */,
+				D0853ABF256D193700AEB849 /* WordListView.swift in Sources */,
+				D0853AE2256DF14900AEB849 /* ListViewModel.swift in Sources */,
+				D0853AB8256D191400AEB849 /* RegexTools.swift in Sources */,
+				D0853AD7256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */,
 				D0853A74256CF2C500AEB849 /* MyVocabularyBookApp.swift in Sources */,
 				D0853A78256CF2C500AEB849 /* Persistence.swift in Sources */,
+				D0853AAD256D18E500AEB849 /* CSVTools.swift in Sources */,
+				D0853AC6256D1C7E00AEB849 /* HomeTabView.swift in Sources */,
 				D0853A72256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */,
+				D0853AA6256D189100AEB849 /* WordDetailView.swift in Sources */,
 				D0853A76256CF2C500AEB849 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0853ADA256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */,
+				D0853AC0256D193700AEB849 /* WordListView.swift in Sources */,
+				D0853AE3256DF14900AEB849 /* ListViewModel.swift in Sources */,
+				D0853AAE256D18E500AEB849 /* CSVTools.swift in Sources */,
+				D0853AD8256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */,
 				D0853A75256CF2C500AEB849 /* MyVocabularyBookApp.swift in Sources */,
+				D0853AB9256D191400AEB849 /* RegexTools.swift in Sources */,
 				D0853A79256CF2C500AEB849 /* Persistence.swift in Sources */,
+				D0853AC7256D1C7E00AEB849 /* HomeTabView.swift in Sources */,
+				D0853AA7256D189100AEB849 /* WordDetailView.swift in Sources */,
 				D0853A73256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */,
 				D0853A77256CF2C500AEB849 /* ContentView.swift in Sources */,
 			);
