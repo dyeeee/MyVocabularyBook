@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03F440D2581BA4D00A3D467 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F440C2581BA4D00A3D467 /* TestView.swift */; };
+		D03F440E2581BA4D00A3D467 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F440C2581BA4D00A3D467 /* TestView.swift */; };
+		D03F44122582062300A3D467 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F44112582062300A3D467 /* SearchView.swift */; };
+		D03F44132582062300A3D467 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F44112582062300A3D467 /* SearchView.swift */; };
+		D03F441725820CE100A3D467 /* NoteBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F441625820CE100A3D467 /* NoteBookView.swift */; };
+		D03F441825820CE100A3D467 /* NoteBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F441625820CE100A3D467 /* NoteBookView.swift */; };
 		D0853A72256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0853A5C256CF2C400AEB849 /* MyVocabularyBook.xcdatamodeld */; };
 		D0853A73256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0853A5C256CF2C400AEB849 /* MyVocabularyBook.xcdatamodeld */; };
 		D0853A74256CF2C500AEB849 /* MyVocabularyBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853A5E256CF2C400AEB849 /* MyVocabularyBookApp.swift */; };
@@ -27,17 +33,28 @@
 		D0853AC0256D193700AEB849 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853ABE256D193700AEB849 /* WordListView.swift */; };
 		D0853AC6256D1C7E00AEB849 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */; };
 		D0853AC7256D1C7E00AEB849 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */; };
-		D0853ACF256DE6B800AEB849 /* IELTS_Words.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */; };
-		D0853AD0256DE6B800AEB849 /* IELTS_Words.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */; };
+		D0853ACF256DE6B800AEB849 /* IELTS_Words_small.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0853ACE256DE6B800AEB849 /* IELTS_Words_small.csv */; };
+		D0853AD0256DE6B800AEB849 /* IELTS_Words_small.csv in Resources */ = {isa = PBXBuildFile; fileRef = D0853ACE256DE6B800AEB849 /* IELTS_Words_small.csv */; };
 		D0853AD7256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */; };
 		D0853AD8256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */; };
 		D0853AD9256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */; };
 		D0853ADA256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */; };
 		D0853AE2256DF14900AEB849 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AE1256DF14900AEB849 /* ListViewModel.swift */; };
 		D0853AE3256DF14900AEB849 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AE1256DF14900AEB849 /* ListViewModel.swift */; };
+		D0853AEB256E086700AEB849 /* SearchBarTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AEA256E086700AEB849 /* SearchBarTool.swift */; };
+		D0853AEC256E086700AEB849 /* SearchBarTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AEA256E086700AEB849 /* SearchBarTool.swift */; };
+		D0853AF0256E444200AEB849 /* SearchTestVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AEF256E444200AEB849 /* SearchTestVIew.swift */; };
+		D0853AF1256E444200AEB849 /* SearchTestVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AEF256E444200AEB849 /* SearchTestVIew.swift */; };
+		D0853AF7257099BD00AEB849 /* WordItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AF6257099BD00AEB849 /* WordItemController.swift */; };
+		D0853AF8257099BD00AEB849 /* WordItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AF6257099BD00AEB849 /* WordItemController.swift */; };
+		D0853AFE2570E08E00AEB849 /* SelectableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AFD2570E08E00AEB849 /* SelectableText.swift */; };
+		D0853AFF2570E08E00AEB849 /* SelectableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853AFD2570E08E00AEB849 /* SelectableText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D03F440C2581BA4D00A3D467 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		D03F44112582062300A3D467 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D03F441625820CE100A3D467 /* NoteBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBookView.swift; sourceTree = "<group>"; };
 		D0853A5D256CF2C400AEB849 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		D0853A5E256CF2C400AEB849 /* MyVocabularyBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocabularyBookApp.swift; sourceTree = "<group>"; };
 		D0853A5F256CF2C400AEB849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,10 +70,14 @@
 		D0853AB7256D191400AEB849 /* RegexTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTools.swift; sourceTree = "<group>"; };
 		D0853ABE256D193700AEB849 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
 		D0853AC5256D1C7E00AEB849 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
-		D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IELTS_Words.csv; sourceTree = "<group>"; };
+		D0853ACE256DE6B800AEB849 /* IELTS_Words_small.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IELTS_Words_small.csv; sourceTree = "<group>"; };
 		D0853AD5256DEE8D00AEB849 /* WordItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D0853AD6256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D0853AE1256DF14900AEB849 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		D0853AEA256E086700AEB849 /* SearchBarTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarTool.swift; sourceTree = "<group>"; };
+		D0853AEF256E444200AEB849 /* SearchTestVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTestVIew.swift; sourceTree = "<group>"; };
+		D0853AF6257099BD00AEB849 /* WordItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItemController.swift; sourceTree = "<group>"; };
+		D0853AFD2570E08E00AEB849 /* SelectableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +119,7 @@
 				D0853A93256D058300AEB849 /* Views */,
 				D0853A9A256D149600AEB849 /* Tools */,
 				D0853A90256CF2F600AEB849 /* TestFiles */,
-				D0853ACE256DE6B800AEB849 /* IELTS_Words.csv */,
+				D0853ACE256DE6B800AEB849 /* IELTS_Words_small.csv */,
 				D0853A61256CF2C500AEB849 /* Assets.xcassets */,
 				D0853A5C256CF2C400AEB849 /* MyVocabularyBook.xcdatamodeld */,
 			);
@@ -144,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				D0853AE1256DF14900AEB849 /* ListViewModel.swift */,
+				D0853AF6257099BD00AEB849 /* WordItemController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -152,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				D0853A5F256CF2C400AEB849 /* ContentView.swift */,
+				D0853AEA256E086700AEB849 /* SearchBarTool.swift */,
+				D0853AEF256E444200AEB849 /* SearchTestVIew.swift */,
 			);
 			path = TestFiles;
 			sourceTree = "<group>";
@@ -159,8 +183,11 @@
 		D0853A93256D058300AEB849 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D0853AA5256D189100AEB849 /* WordDetailView.swift */,
+				D03F441625820CE100A3D467 /* NoteBookView.swift */,
 				D0853ABE256D193700AEB849 /* WordListView.swift */,
+				D0853AA5256D189100AEB849 /* WordDetailView.swift */,
+				D03F440C2581BA4D00A3D467 /* TestView.swift */,
+				D03F44112582062300A3D467 /* SearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +197,7 @@
 			children = (
 				D0853AAC256D18E500AEB849 /* CSVTools.swift */,
 				D0853AB7256D191400AEB849 /* RegexTools.swift */,
+				D0853AFD2570E08E00AEB849 /* SelectableText.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -252,7 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0853ACF256DE6B800AEB849 /* IELTS_Words.csv in Resources */,
+				D0853ACF256DE6B800AEB849 /* IELTS_Words_small.csv in Resources */,
 				D0853A7A256CF2C500AEB849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0853AD0256DE6B800AEB849 /* IELTS_Words.csv in Resources */,
+				D0853AD0256DE6B800AEB849 /* IELTS_Words_small.csv in Resources */,
 				D0853A7B256CF2C500AEB849 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,14 +303,21 @@
 			files = (
 				D0853AD9256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */,
 				D0853ABF256D193700AEB849 /* WordListView.swift in Sources */,
+				D0853AF0256E444200AEB849 /* SearchTestVIew.swift in Sources */,
+				D0853AF7257099BD00AEB849 /* WordItemController.swift in Sources */,
 				D0853AE2256DF14900AEB849 /* ListViewModel.swift in Sources */,
 				D0853AB8256D191400AEB849 /* RegexTools.swift in Sources */,
 				D0853AD7256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */,
 				D0853A74256CF2C500AEB849 /* MyVocabularyBookApp.swift in Sources */,
+				D03F440D2581BA4D00A3D467 /* TestView.swift in Sources */,
+				D0853AFE2570E08E00AEB849 /* SelectableText.swift in Sources */,
+				D03F44122582062300A3D467 /* SearchView.swift in Sources */,
+				D03F441725820CE100A3D467 /* NoteBookView.swift in Sources */,
 				D0853A78256CF2C500AEB849 /* Persistence.swift in Sources */,
 				D0853AAD256D18E500AEB849 /* CSVTools.swift in Sources */,
 				D0853AC6256D1C7E00AEB849 /* HomeTabView.swift in Sources */,
 				D0853A72256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */,
+				D0853AEB256E086700AEB849 /* SearchBarTool.swift in Sources */,
 				D0853AA6256D189100AEB849 /* WordDetailView.swift in Sources */,
 				D0853A76256CF2C500AEB849 /* ContentView.swift in Sources */,
 			);
@@ -294,14 +329,21 @@
 			files = (
 				D0853ADA256DEE8D00AEB849 /* WordItem+CoreDataProperties.swift in Sources */,
 				D0853AC0256D193700AEB849 /* WordListView.swift in Sources */,
+				D0853AF1256E444200AEB849 /* SearchTestVIew.swift in Sources */,
+				D0853AF8257099BD00AEB849 /* WordItemController.swift in Sources */,
 				D0853AE3256DF14900AEB849 /* ListViewModel.swift in Sources */,
 				D0853AAE256D18E500AEB849 /* CSVTools.swift in Sources */,
 				D0853AD8256DEE8D00AEB849 /* WordItem+CoreDataClass.swift in Sources */,
 				D0853A75256CF2C500AEB849 /* MyVocabularyBookApp.swift in Sources */,
+				D03F440E2581BA4D00A3D467 /* TestView.swift in Sources */,
+				D0853AFF2570E08E00AEB849 /* SelectableText.swift in Sources */,
+				D03F44132582062300A3D467 /* SearchView.swift in Sources */,
+				D03F441825820CE100A3D467 /* NoteBookView.swift in Sources */,
 				D0853AB9256D191400AEB849 /* RegexTools.swift in Sources */,
 				D0853A79256CF2C500AEB849 /* Persistence.swift in Sources */,
 				D0853AC7256D1C7E00AEB849 /* HomeTabView.swift in Sources */,
 				D0853AA7256D189100AEB849 /* WordDetailView.swift in Sources */,
+				D0853AEC256E086700AEB849 /* SearchBarTool.swift in Sources */,
 				D0853A73256CF2C500AEB849 /* MyVocabularyBook.xcdatamodeld in Sources */,
 				D0853A77256CF2C500AEB849 /* ContentView.swift in Sources */,
 			);
